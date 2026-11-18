@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alpine Ascents</title>
+<meta name="description" content="Alpine Ascents – guided mountaineering expeditions, safety guides, clubs, records and stories from the world's greatest mountains.">
+
+<!-- Bootstrap, icons and main stylesheet -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 1.preloader  -->
+<div id="preloader">
+<div class="preloader-content text-center">
+<!-- Mountain Logo -->
+<div class="mountain-logo">
+<svg viewBox="0 0 200 100"
+xmlns="http://www.w3.org/2000/svg">
+<path d="M10 85 L55 30 L75 55 L105 10
+L155 75 L135 58 L120 75
+L105 42 L75 85 L55 60 Z"
+fill="none"
+stroke="#69D5FF"
+stroke-width="4"
+stroke-linejoin="round"/>
+<path d="M85 85 L125 38 L190 85"
+fill="none"
+stroke="#69D5FF"
+stroke-width="4"
+stroke-linejoin="round"/>
+</svg>
+</div>
+<!-- Brand Name -->
+<h1 class="brand-name">ALPINE ASCENTS</h1>
+<p class="brand-tagline">
+DREAM · CLIMB · EXPLORE
+</p>
+<!-- Loading Spinner -->
+<div class="loader"></div>
+</div>
+</div>
+<!-- Preloader End -->
+
+<!-- navbar  -->
+<nav class="navbar navbar-expand-xl navbar-dark alpine-navbar">
+<div class="container-fluid px-3 px-lg-4">
+
+<!-- LOGO -->
+<a class="navbar-brand alpine-brand"
+ href="#home">
+
+<svg class="mountain-logo"
+viewBox="0 0 70 48"
+xmlns="http://www.w3.org/2000/svg"
+aria-label="Alpine mountain logo"
+role="img">
+
+<path d="M3 43 L20 20 L28 30 L42 5
+L66 43 L51 34 L42 20
+L29 39 L20 30 L11 43 Z"
+fill="none"
+stroke="#72D5FF"
+stroke-width="2.8"
+stroke-linejoin="round"/>
+
+<path d="M36 15 L42 5 L49 17"
+fill="none"
+stroke="#FFFFFF"
+stroke-width="2"/>
+</svg>
+
+
+<span class="brand-text">
+<span class="brand-name">ALPINE ASCENTS</span>
+</span>
+
+ </a>
+
+<!-- MOBILE MENU BUTTON -->
+<button class="navbar-toggler alpine-toggler"
+type="button"
+data-bs-toggle="collapse"
+data-bs-target="#alpineNavbar"
+aria-controls="alpineNavbar"
+aria-expanded="false"
+aria-label="Toggle navigation">
+
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<!-- NAVIGATION LINKS -->
+<div class="collapse navbar-collapse"
+id="alpineNavbar">
+
+<ul class="navbar-nav mx-auto align-items-xl-center">
+
+<li class="nav-item">
+ <a class="nav-link active"href="#home">Home</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#about">About</a>
+</li>
+
+<li class="nav-item">
+ <a class="nav-link" href="#expedition">Expedition</a>
+ </li>
+
+<li class="nav-item">
+ <a class="nav-link" href="#mountaineering">Mountaineering</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#clubs">Clubs</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#hazards">Hazards</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#sheltering">Sheltering</a>
+</li>
+
+<li class="nav-item">
+<a class="nav-link" href="#gallery">Gallery</a>
+</li>
+
+
+<!-- MORE DROPDOWN -->
+<li class="nav-item dropdown">
+
+<a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ More
+</a>
+
+<ul class="dropdown-menu alpine-dropdown" aria-labelledby="moreDropdown">
+
+<li>
+ <a class="dropdown-item" href="#history">History</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="#types">styles</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="#techniques">Techniques</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="#records">Records</a>
+</li>
+
+<li>
+<a class="dropdown-item" href="#success-story">Success Story</a>
+</li>
+
+ <li>
+<a class="dropdown-item" href="#development">Latest Development</a>
+</li>
+
+<li>
+<a class="dropdown-item"
+href="#contact">Contact Us</a>
+</li>
+
+</ul>
+</li>
+</ul>
+
+<!-- VISITOR COUNTER -->
+<div class="visitor-box">
+
+<svg viewBox="0 0 24 24" class="visitor-icon" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+
+<path d="M16 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+<circle cx="10" cy="7" r="4"/>
+<path d="M20 21v-2a4 4 0 0 0-3-3.87"/>
+<path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+</svg>
+
+<div class="visitor-info">
+<span class="visitor-label">VISITORS</span>
+<span id="visitorCount">1,247</span>
+</div>
+    </div>
+
+<!-- BOOK NOW -->
+<a href="#contact" class="book-btn"> Book Now</a>
+</div>
+</div>
+</nav>
+<!-- NAVBAR END -->
+
+<!-- home section start -->
+<section id="home" class="hero-section">
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+<p class="hero-subtitle">WELCOME TO ALPINE ASCENTS</p>
+
+<h1> Beyond Limits.<br><span>Above the Ordinary.</span></h1>
+
+<p class="hero-description">
+Discover breathtaking peaks, explore extraordinary expeditions, and experience the adventure of a lifetime.
+</p>
+
+<div class="hero-buttons">
+<a href="#expedition" class="hero-btn primary-btn">
+Explore Expeditions
+</a>
+
+ <a href="#about" class="hero-btn secondary-btn">
+ Discover Our Story
+</a>
+</div>
+</div>
+
+<div class="hero-bottom">
+<span>ADVENTURE • EXPLORATION • DISCOVERY</span>
+</div>
+</section>
+<!-- home section close  -->
+
+
+<!-- about section start  -->
+<section id="about" class="about-section">
+
+<div class="about-container">
+
+<!-- LEFT SIDE IMAGE -->
+<div class="about-image">
+<img src="images/aboutmountain.jpg" alt="Mountaineers exploring the snowy mountains">
+
+<div class="about-image-label">
+<span class="label-number">01</span>
+<span>OUR JOURNEY BEGINS HERE</span>
+</div>
+</div>
+
+<!-- RIGHT SIDE CONTENT -->
+<div class="about-content">
+
+<p class="about-subtitle">ABOUT ALPINE ASCENTS</p>
+
+<h2>We Go Beyond
+<span>the Summit.</span>
+</h2>
+
+<p class="about-description"> Alpine Ascents is dedicated to the spirit of mountaineering, exploration, and adventure. We bring mountain enthusiasts closer to the world's most breathtaking landscapes.</p>
+
+<p class="about-description">
+From discovering new trails to understanding mountain safety and climbing techniques, our goal is to inspire responsible exploration and a deeper connection with nature. </p>
+
+<!-- OUR VALUES -->
+ <div class="about-features">
+
+ <div class="about-feature">
+<span class="feature-icon">✦</span>
+<div>
+<h3>Our Mission</h3>
+ <p>Inspire adventure and responsible exploration.</p>
+</div>
+ </div>
+
+<div class="about-feature">
+ <span class="feature-icon">▲</span>
+<div>
+<h3>Our Vision</h3>
+ <p>Make mountain knowledge accessible to everyone.</p>
+</div>
+</div>
+
+</div>
+<a href="#expedition" class="about-btn"> EXPLORE OUR WORLD <span>→</span></a>
+
+ </div>
+</div>
+</section>
+<!-- about section closing  -->
+
+
+<!-- =====================================================
+     EXPEDITION SECTION START
+     ===================================================== -->
+<section id="expedition" class="sec sec-dark">
+<div class="sec-inner">
+
+<!-- Expedition heading -->
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Featured Expeditions</span>
+<h2 class="sec-title">Iconic Mountains. Unforgettable Journeys.</h2>
+</div>
+<p class="sec-intro">From legendary peaks to life-changing adventures, our expeditions are designed for those who seek more than the ordinary.</p>
+</div>
+
+<!-- Expedition filter buttons -->
+<div class="chip-group" id="expFilters">
+<button class="chip active" data-filter="all">All</button>
+<button class="chip" data-filter="moderate">Moderate</button>
+<button class="chip" data-filter="challenging">Challenging</button>
+</div>
+
+<!-- Expedition cards (filled from data in script.js) -->
+<div class="grid-3" id="expGrid"></div>
+
+<!-- Expedition journey steps -->
+<div class="journey reveal">
+<div class="sec-head">
+<div>
+<span class="sec-eyebrow">The Expedition Journey</span>
+<h2 class="sec-title">A Clear Path to Extraordinary</h2>
+</div>
+<p class="sec-intro">Expert planning, world-class guidance, and a proven process to help you reach your summit safely and confidently.</p>
+</div>
+<div class="journey-steps">
+<div class="journey-step"><div class="journey-icon"><i class="bi bi-journal-text"></i></div><h4>PREPARATION</h4><p>Plan, gear up, and get expedition-ready.</p></div>
+<div class="journey-step"><div class="journey-icon"><i class="bi bi-activity"></i></div><h4>TRAINING</h4><p>Build skills and endurance.</p></div>
+<div class="journey-step"><div class="journey-icon"><i class="bi bi-triangle"></i></div><h4>BASE CAMP</h4><p>Adapt, prepare, and make the final push.</p></div>
+<div class="journey-step"><div class="journey-icon"><i class="bi bi-image-alt"></i></div><h4>SUMMIT</h4><p>Challenge yourself and reach new heights.</p></div>
+<div class="journey-step"><div class="journey-icon"><i class="bi bi-flag"></i></div><h4>RETURN</h4><p>Carry the experience forward.</p></div>
+</div>
+</div>
+
+</div>
+</section>
+<!-- =====================================================
+     EXPEDITION SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     MOUNTAINEERING SECTION START
+     ===================================================== -->
+<section id="mountaineering" class="sec sec-light">
+<div class="sec-inner">
+
+<!-- Mountaineering heading -->
+<div class="sec-head center reveal">
+<span class="sec-eyebrow">Know Before You Go</span>
+<h2 class="sec-title">Mountaineering Information</h2>
+<p class="sec-intro">Click any card to read the detailed guide.</p>
+</div>
+
+<!-- Mountaineering guide cards: each card jumps to its page -->
+<div class="grid-3">
+<a class="info-card reveal" href="#history"><i class="bi bi-book"></i><h3>History</h3><p>The evolution of mountaineering</p><span>Read more →</span></a>
+<a class="info-card reveal" href="#types"><i class="bi bi-diagram-3"></i><h3>Types / Styles</h3><p>Alpine, Himalayan, expedition &amp; more</p><span>Read more →</span></a>
+<a class="info-card reveal" href="#techniques"><i class="bi bi-tools"></i><h3>Techniques</h3><p>Skills for a safer climb</p><span>Read more →</span></a>
+<a class="info-card reveal" href="#sheltering"><i class="bi bi-house"></i><h3>Sheltering</h3><p>Types &amp; how to use</p><span>Read more →</span></a>
+<a class="info-card reveal" href="#hazards"><i class="bi bi-exclamation-triangle"></i><h3>Hazards</h3><p>Risks and how to prepare</p><span>Read more →</span></a>
+<button class="info-card reveal" type="button" data-info="equipment"><i class="bi bi-backpack"></i><h3>Equipment</h3><p>Essential gear list</p><span>Read more →</span></button>
+</div>
+
+<!-- Mountaineering quick facts -->
+<div class="facts-strip reveal">
+<div class="fact"><strong>14</strong><span>PEAKS ABOVE 8,000 M</span></div>
+<div class="fact"><strong>1786</strong><span>FIRST MONT BLANC ASCENT</span></div>
+<div class="fact"><strong>8,848 m</strong><span>HIGHEST POINT ON EARTH</span></div>
+<div class="fact"><strong>7</strong><span>CONTINENTS, 7 SUMMITS</span></div>
+</div>
+
+</div>
+</section>
+<!-- =====================================================
+     MOUNTAINEERING SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     CLUBS SECTION START
+     ===================================================== -->
+<section id="clubs" class="sec sec-dark">
+<div class="sec-inner">
+
+<!-- Clubs heading -->
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Our Locations</span>
+<h2 class="sec-title">Find Us on the Map</h2>
+</div>
+<p class="sec-intro">From the Himalaya to the Alps and beyond, we work with trusted partners around the world to make safe, meaningful ascents possible.</p>
+</div>
+
+<!-- Clubs list + Google map -->
+<div class="clubs-layout reveal">
+
+<!-- Left: club list -->
+<aside>
+<div class="club-list" id="clubList"></div>
+<button class="btn-cyan mt-3" id="myLocationBtn" type="button"><i class="bi bi-crosshair"></i> Show My Location</button>
+<p class="location-message" id="locationMessage"></p>
+</aside>
+
+<!-- Right: map and selected club -->
+<div>
+<div class="map-frame">
+<iframe id="mapFrame" title="Mountaineering club location map" src="https://maps.google.com/maps?q=27.7172,85.3240&amp;z=12&amp;output=embed" loading="lazy" allowfullscreen></iframe>
+</div>
+<div class="selected-card">
+<div>
+<h3><i class="bi bi-geo-alt-fill"></i> <span id="selectedName">Alpine Ascents Base Camp</span></h3>
+<p id="selectedLocation">Kathmandu, Nepal</p>
+<p id="selectedCoordinates">Latitude 27.7172 N · Longitude 85.3240 E</p>
+</div>
+<a class="btn-cyan" id="googleMapsLink" href="https://www.google.com/maps?q=27.7172,85.3240" target="_blank" rel="noopener">View on Google Maps <i class="bi bi-arrow-right"></i></a>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- Partner organizations -->
+<section class="sec sec-light">
+<div class="sec-inner">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Our Partners</span>
+<h2 class="sec-title">Mountaineering Organizations</h2>
+</div>
+<p class="sec-intro">We collaborate with respected organizations around the world to support safer mountains, stronger communities, and a more sustainable future for climbing.</p>
+</div>
+<div class="grid-4">
+<article class="org-card reveal">
+<div class="org-logo">UIAA</div>
+<h3>UIAA</h3>
+<p class="org-tag">International Mountaineering and Climbing Federation</p>
+<ul>
+<li><i class="bi bi-geo-alt"></i>Monbijoustrasse 61, 3007 Bern, Switzerland</li>
+<li><i class="bi bi-telephone"></i><a href="tel:+41313701828">+41 31 370 18 28</a></li>
+<li><i class="bi bi-globe"></i><a href="https://www.theuiaa.org" target="_blank" rel="noopener">www.theuiaa.org</a></li>
+</ul>
+<a class="btn-ghost" href="https://www.theuiaa.org" target="_blank" rel="noopener">Visit Website →</a>
+</article>
+<article class="org-card reveal">
+<div class="org-logo">ACP</div>
+<h3>Alpine Club of Pakistan</h3>
+<p class="org-tag">Promoting mountaineering in Pakistan</p>
+<ul>
+<li><i class="bi bi-geo-alt"></i>Aiwan-e-Iqbal Road, F-6/1, Islamabad, Pakistan</li>
+<li><i class="bi bi-telephone"></i><a href="tel:+92519204488">+92 51 920 4488</a></li>
+<li><i class="bi bi-globe"></i><a href="https://www.alpineclubofpakistan.org" target="_blank" rel="noopener">alpineclubofpakistan.org</a></li>
+</ul>
+<a class="btn-ghost" href="https://www.alpineclubofpakistan.org" target="_blank" rel="noopener">Visit Website →</a>
+</article>
+<article class="org-card reveal">
+<div class="org-logo">NMA</div>
+<h3>Nepal Mountaineering Association</h3>
+<p class="org-tag">For a safer and stronger Himalaya</p>
+<ul>
+<li><i class="bi bi-geo-alt"></i>Lazimpat, Kathmandu 44600, Nepal</li>
+<li><i class="bi bi-telephone"></i><a href="tel:+97714412003">+977 1 441 2003</a></li>
+<li><i class="bi bi-globe"></i><a href="https://www.nma.org.np" target="_blank" rel="noopener">www.nma.org.np</a></li>
+</ul>
+<a class="btn-ghost" href="https://www.nma.org.np" target="_blank" rel="noopener">Visit Website →</a>
+</article>
+<article class="org-card reveal">
+<div class="org-logo">HRA</div>
+<h3>Himalayan Rescue Association</h3>
+<p class="org-tag">Search, rescue and mountain safety</p>
+<ul>
+<li><i class="bi bi-geo-alt"></i>Thamel, Kathmandu 44600, Nepal</li>
+<li><i class="bi bi-telephone"></i><a href="tel:+97714701144">+977 1 470 1144</a></li>
+<li><i class="bi bi-globe"></i><a href="https://www.himalayanrescue.org" target="_blank" rel="noopener">himalayanrescue.org</a></li>
+</ul>
+<a class="btn-ghost" href="https://www.himalayanrescue.org" target="_blank" rel="noopener">Visit Website →</a>
+</article>
+</div>
+</div>
+</section>
+<!-- =====================================================
+     CLUBS SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     HAZARDS SECTION START
+     ===================================================== -->
+<section id="hazards">
+
+<!-- Hazards banner -->
+<div class="page-banner" style="--banner-image:url('../images/ridge.jpg')">
+<div class="page-banner-content">
+<span class="sec-eyebrow">Safety First</span>
+<h2>Climb Smart.<br>Return Safe.</h2>
+<p>Knowledge, preparation and good decisions keep the mountains amazing for a lifetime.</p>
+<a class="btn-cyan" href="#hazardList">Explore Our Safety Resources →</a>
+</div>
+<p class="banner-note">RESPECT<br>PREPARE<br>CLIMB FURTHER</p>
+</div>
+
+<!-- Common hazards -->
+<div class="sec sec-light" id="hazardList">
+<div class="sec-inner">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Common Hazards</span>
+<h2 class="sec-title">Know the Hazards. Be Prepared.</h2>
+</div>
+<p class="sec-intro">The mountains present real risks, but with the right knowledge and preparation, you can manage them and climb with greater confidence.</p>
+</div>
+<div class="grid-4">
+<article class="hazard-card reveal"><div class="hazard-icon"><svg viewBox="0 0 64 64"><path d="M32 5 59 55H5Z"/><path d="M32 22v18M23 31h18"/></svg></div><h3>Avalanches</h3><p>Rapidly moving snow can be triggered by natural forces or human activity, burying climbers in seconds.</p><div class="tip"><p class="tip-label">PREVENTION TIP</p><p>Check avalanche forecasts, assess snow conditions, and travel with proper gear.</p></div></article>
+<article class="hazard-card reveal"><div class="hazard-icon"><svg viewBox="0 0 64 64"><path d="M7 51 28 12l9 15 7-10 13 34"/><path d="m23 38 10-14 7 10 5-5"/></svg></div><h3>Altitude Sickness</h3><p>Reduced oxygen at high elevations can cause mild to severe illness, affecting judgment and physical ability.</p><div class="tip"><p class="tip-label">PREVENTION TIP</p><p>Ascend gradually, stay hydrated, and listen to your body.</p></div></article>
+<article class="hazard-card reveal"><div class="hazard-icon"><svg viewBox="0 0 64 64"><path d="M28 13a4 4 0 0 1 8 0v25a11 11 0 1 1-8 0Z"/><path d="M32 23v23"/></svg></div><h3>Frostbite</h3><p>Extreme cold can freeze skin and tissue, leading to permanent damage, often without immediate pain.</p><div class="tip"><p class="tip-label">PREVENTION TIP</p><p>Wear proper layers, keep skin covered, and watch for early signs.</p></div></article>
+<article class="hazard-card reveal"><div class="hazard-icon"><svg viewBox="0 0 64 64"><path d="M5 18h17l-5 9 12 4-7 7 10 19 7-20 8-6-4-7 16-6"/></svg></div><h3>Crevasses</h3><p>Hidden cracks in glaciers can be deep and deadly, even when snow-covered.</p><div class="tip"><p class="tip-label">PREVENTION TIP</p><p>Travel roped, use proper navigation skills, and probe suspect areas.</p></div></article>
+<article class="hazard-card reveal"><div class="hazard-icon"><svg viewBox="0 0 64 64"><path d="M8 53 27 15l10 16 6-7 13 29Z"/><circle cx="48" cy="40" r="3"/></svg></div><h3>Rockfall</h3><p>Falling rock is common on steep terrain, especially in warm conditions or loose, unstable areas.</p><div class="tip"><p class="tip-label">PREVENTION TIP</p><p>Wear a helmet, stay aware, and avoid travelling late in the day.</p></div></article>
+<article class="hazard-card reveal"><div class="hazard-icon"><svg viewBox="0 0 64 64"><path d="M16 42a11 11 0 0 1 2-22 15 15 0 0 1 28 5 10 10 0 0 1 2 20H18"/><path d="m24 49-4 7M36 49l-4 7"/></svg></div><h3>Whiteout Weather</h3><p>Low visibility can cause disorientation, making it easy to lose your route or your team.</p><div class="tip"><p class="tip-label">PREVENTION TIP</p><p>Carry a map, compass and GPS, and know when to turn back.</p></div></article>
+<article class="hazard-card reveal"><div class="hazard-icon"><svg viewBox="0 0 64 64"><path d="M32 6v52M10 19l44 26M10 45l44-26"/></svg></div><h3>Hypothermia</h3><p>Prolonged exposure to cold lowers your core temperature, impairing judgment and muscle function.</p><div class="tip"><p class="tip-label">PREVENTION TIP</p><p>Stay dry, wear insulating layers, and seek shelter early.</p></div></article>
+<article class="hazard-card reveal"><div class="hazard-icon"><svg viewBox="0 0 64 64"><path d="M32 5C25 17 15 29 15 40a17 17 0 0 0 34 0C49 29 39 17 32 5Z"/></svg></div><h3>Dehydration</h3><p>Cold, dry air and exertion increase fluid loss, even when you don't feel thirsty.</p><div class="tip"><p class="tip-label">PREVENTION TIP</p><p>Drink regularly, even in cold conditions.</p></div></article>
+</div>
+</div>
+</div>
+
+<!-- Safety checklist (tick boxes to track progress) -->
+<div class="sec sec-white">
+<div class="sec-inner">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Practical Steps</span>
+<h2 class="sec-title">Mountaineering Safety Checklist</h2>
+</div>
+<p class="sec-intro">Small steps make a big difference. Tick each essential before every adventure.</p>
+</div>
+<div class="grid-6" id="safetyChecklist">
+<label class="check-item reveal"><img src="images/himaliyas.jpg" alt="Mountain weather"><div class="check-body"><input type="checkbox"><h4>Check Weather</h4><p>Review forecasts before and during your trip.</p></div></label>
+<label class="check-item reveal"><img src="images/online-22.jpg" alt="Route map"><div class="check-body"><input type="checkbox"><h4>Tell Someone Your Route</h4><p>Share route, timeline and check-in schedule.</p></div></label>
+<label class="check-item reveal"><img src="images/online-29.jpg" alt="First aid kit"><div class="check-body"><input type="checkbox"><h4>Carry First Aid Kit</h4><p>Bring a well-stocked kit and know how to use it.</p></div></label>
+<label class="check-item reveal"><img src="images/ridge.jpg" alt="Climber with helmet"><div class="check-body"><input type="checkbox"><h4>Wear Helmet &amp; Harness</h4><p>Protect yourself from falling rock.</p></div></label>
+<label class="check-item reveal"><img src="images/lakes.webp" alt="Valley trek"><div class="check-body"><input type="checkbox"><h4>Acclimatize Slowly</h4><p>Give your body time and watch for signs of AMS.</p></div></label>
+<label class="check-item reveal"><img src="images/above-clouds.jpg" alt="Sunset over peaks"><div class="check-body"><input type="checkbox"><h4>Know When to Turn Back</h4><p>Retreat if conditions or risk levels change.</p></div></label>
+</div>
+<div class="check-progress">
+<span id="checkCount">0 / 6 ready</span>
+<div class="progress-track"><div class="progress-fill" id="checkFill"></div></div>
+</div>
+</div>
+</div>
+
+<!-- Do's and don'ts + emergency numbers -->
+<div class="sec sec-light">
+<div class="sec-inner">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Real-World Guidance</span>
+<h2 class="sec-title">Safety Do's and Don'ts</h2>
+</div>
+<p class="sec-intro">Good habits in the mountains can be life-saving. Here are a few key reminders.</p>
+</div>
+<div class="do-dont reveal">
+<div class="do-panel good">
+<h3><i class="bi bi-check-circle-fill"></i> DO</h3>
+<ul>
+<li><i class="bi bi-check2"></i> Plan and prepare thoroughly</li>
+<li><i class="bi bi-check2"></i> Use the right gear and know how to use it</li>
+<li><i class="bi bi-check2"></i> Stay aware of changing conditions</li>
+<li><i class="bi bi-check2"></i> Keep your group together</li>
+<li><i class="bi bi-check2"></i> Make conservative decisions</li>
+</ul>
+</div>
+<div class="do-panel bad">
+<h3><i class="bi bi-x-circle-fill"></i> DON'T</h3>
+<ul>
+<li><i class="bi bi-x"></i> Don't ignore weather warnings</li>
+<li><i class="bi bi-x"></i> Don't climb alone</li>
+<li><i class="bi bi-x"></i> Don't push beyond your limits</li>
+<li><i class="bi bi-x"></i> Don't take unnecessary risks</li>
+<li><i class="bi bi-x"></i> Don't hesitate to turn back</li>
+</ul>
+</div>
+</div>
+<div class="emergency-bar reveal">
+<div><h3><i class="bi bi-telephone-fill"></i> EMERGENCY NUMBERS</h3><p>Save these in your phone before you go.</p></div>
+<div><span>Mountain Rescue</span><a href="tel:+18889994727">+1 888 999 4727</a></div>
+<div><span>Emergency (Global)</span><a href="tel:112">112</a></div>
+<div><span>Nepal Tourist Police</span><a href="tel:+97714247041">+977 1 424 7041</a></div>
+</div>
+</div>
+</div>
+
+</section>
+<!-- =====================================================
+     HAZARDS SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     SHELTERING SECTION START
+     ===================================================== -->
+<section id="sheltering">
+
+<!-- Sheltering banner -->
+<div class="page-banner" style="--banner-image:url('../images/camping.jpg')">
+<div class="page-banner-content">
+<span class="sec-eyebrow">Shelter in the Mountains</span>
+<h2>Your Home at<br>High Altitude</h2>
+<p>From expedition tents to snow caves, the right shelter keeps you safe, warm and ready for what's next.</p>
+<a class="btn-cyan" href="#shelterTypes">Explore Shelters →</a>
+</div>
+<p class="banner-note">HIGHER PLACES<br>A BRIGHTER YOU</p>
+</div>
+
+<!-- Shelter types -->
+<div class="sec sec-light" id="shelterTypes">
+<div class="sec-inner">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Shelter Types</span>
+<h2 class="sec-title">Find the Right Shelter for Your Journey</h2>
+</div>
+<p class="sec-intro">Different environments call for different solutions. Click "How to use" on any shelter to learn the basics.</p>
+</div>
+<div class="grid-3">
+<article class="shelter-card reveal" style="--card-image:url('../images/online-14.jpg')"><div class="shelter-content"><h3>Expedition Tents</h3><p>Built for extreme conditions, with reliable protection in high winds and cold.</p><button class="link-arrow" data-info="tents">HOW TO USE →</button></div></article>
+<article class="shelter-card reveal" style="--card-image:url('../images/online-9.jpg')"><div class="shelter-content"><h3>Bivouac Sacks</h3><p>Lightweight, minimalist and fast to deploy for emergency or ultra-light missions.</p><button class="link-arrow" data-info="bivy">HOW TO USE →</button></div></article>
+<article class="shelter-card reveal" style="--card-image:url('../images/online-18.jpg')"><div class="shelter-content"><h3>Mountain Huts</h3><p>Historic shelters that provide a safe haven and a sense of community.</p><button class="link-arrow" data-info="huts">HOW TO USE →</button></div></article>
+<article class="shelter-card reveal" style="--card-image:url('../images/online-19.jpg')"><div class="shelter-content"><h3>Snow Caves</h3><p>A time-tested wilderness shelter using nature's own materials.</p><button class="link-arrow" data-info="snowcave">HOW TO USE →</button></div></article>
+<article class="shelter-card reveal" style="--card-image:url('../images/online-20.jpg')"><div class="shelter-content"><h3>Igloos</h3><p>Remarkably strong, insulating shelters built from compacted snow blocks.</p><button class="link-arrow" data-info="igloo">HOW TO USE →</button></div></article>
+<article class="shelter-card reveal" style="--card-image:url('../images/base.jpg')"><div class="shelter-content"><h3>Emergency Shelters</h3><p>Compact options for unexpected situations when every gram counts.</p><button class="link-arrow" data-info="emergency">HOW TO USE →</button></div></article>
+</div>
+</div>
+</div>
+
+<!-- Snow cave steps -->
+<div class="sec sec-dark">
+<div class="sec-inner">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Skills in Action</span>
+<h2 class="sec-title">How to Build a Snow Cave</h2>
+</div>
+<p class="sec-intro">A snow cave can provide shelter in winter conditions. Learn the safety basics before attempting any snow shelter.</p>
+</div>
+<div class="steps-grid">
+<article class="step reveal"><span class="step-number">1</span><h3>Choose a Site</h3><p>Choose a stable area away from avalanche paths and steep slopes.</p></article>
+<article class="step reveal"><span class="step-number">2</span><h3>Dig the Entrance</h3><p>Only attempt with suitable conditions, equipment and experienced guidance.</p></article>
+<article class="step reveal"><span class="step-number">3</span><h3>Create the Chamber</h3><p>Keep the space modest and ensure the snow structure is stable.</p></article>
+<article class="step reveal"><span class="step-number">4</span><h3>Add Ventilation</h3><p>Keep an air vent open and check it regularly.</p></article>
+<article class="step reveal"><span class="step-number">5</span><h3>Finish and Insulate</h3><p>Use a sleeping pad and keep an exit clear. Never use a stove inside.</p></article>
+</div>
+</div>
+</div>
+
+</section>
+<!-- =====================================================
+     SHELTERING SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     GALLERY SECTION START
+     ===================================================== -->
+<section id="gallery" class="sec sec-deep">
+<div class="sec-inner">
+
+<!-- Gallery heading -->
+<div class="sec-head center reveal">
+<span class="sec-eyebrow">Our Gallery</span>
+<h2 class="sec-title">Moments That Inspire</h2>
+<p class="sec-intro">Breathtaking landscapes. Unforgettable journeys. Click any photo to view it larger.</p>
+</div>
+
+<!-- Gallery filter buttons -->
+<div class="chip-group justify-content-center" id="galleryFilters">
+<button class="chip active" data-filter="all">All</button>
+<button class="chip" data-filter="photos">Photos</button>
+<button class="chip" data-filter="videos">Videos</button>
+<button class="chip" data-filter="expeditions">Expeditions</button>
+<button class="chip" data-filter="summits">Summits</button>
+</div>
+
+<!-- Photo grid -->
+<div class="photo-grid" id="photoGrid">
+<figure class="photo-card tall" data-category="photos summits"><img src="images/aboutmountain.jpg" alt="Ama Dablam"><figcaption class="photo-overlay"><span class="photo-title">Ama Dablam</span><span class="photo-location">NEPAL</span></figcaption></figure>
+<figure class="photo-card medium" data-category="photos expeditions"><img src="images/ridge.jpg" alt="On the Ridge"><figcaption class="photo-overlay"><span class="photo-title">On the Ridge</span><span class="photo-location">ALPINE EXPEDITION</span></figcaption></figure>
+<figure class="photo-card medium" data-category="photos"><img src="images/himaliyas.jpg" alt="Serenity"><figcaption class="photo-overlay"><span class="photo-title">Serenity</span><span class="photo-location">HIMALAYAS</span></figcaption></figure>
+<figure class="photo-card medium" data-category="photos expeditions"><img src="images/lakes.webp" alt="Gokyo Lakes"><figcaption class="photo-overlay"><span class="photo-title">Gokyo Lakes</span><span class="photo-location">NEPAL</span></figcaption></figure>
+<figure class="photo-card tall" data-category="photos expeditions"><img src="images/base.jpg" alt="Base Camp"><figcaption class="photo-overlay"><span class="photo-title">Base Camp</span><span class="photo-location">KARAKORAM</span></figcaption></figure>
+<figure class="photo-card medium" data-category="photos summits"><img src="images/wining.jpg" alt="Summit Feelings"><figcaption class="photo-overlay"><span class="photo-title">Summit Feelings</span><span class="photo-location">ALPINE EXPEDITION</span></figcaption></figure>
+<figure class="photo-card medium" data-category="photos summits"><img src="images/above-clouds.jpg" alt="Above the Clouds"><figcaption class="photo-overlay"><span class="photo-title">Above the Clouds</span><span class="photo-location">HIMALAYA</span></figcaption></figure>
+<figure class="photo-card medium" data-category="photos expeditions"><img src="images/camping.jpg" alt="Night Camp"><figcaption class="photo-overlay"><span class="photo-title">Night Camp</span><span class="photo-location">KARAKORAM</span></figcaption></figure>
+</div>
+
+<!-- Videos -->
+<div class="sec-head center mt-5 reveal" id="videoBlock">
+<span class="sec-eyebrow">Videos</span>
+<h2 class="sec-title">Stories in Motion</h2>
+<p class="sec-intro">Watch expeditions, behind-the-scenes moments and incredible places. Videos open on YouTube.</p>
+</div>
+<div class="grid-3" id="videoGrid">
+<article class="video-card" data-category="videos expeditions"><button class="video-thumbnail" data-search="Everest mountaineering expedition documentary"><img src="images/video-1.jpg" alt="The Call of Everest"><span class="play-button">▶</span><span class="video-duration">4:36</span></button><h3>The Call of Everest</h3><span class="video-label">EXPEDITION FILM</span></article>
+<article class="video-card" data-category="videos expeditions"><button class="video-thumbnail" data-search="Himalayan base camp mountaineering documentary"><img src="images/video-2.jpg" alt="Life at Base Camp"><span class="play-button">▶</span><span class="video-duration">6:12</span></button><h3>Life at Base Camp</h3><span class="video-label">BEHIND THE SCENES</span></article>
+<article class="video-card" data-category="videos summits"><button class="video-thumbnail" data-search="cinematic mountain summit sunrise climbing film"><img src="images/video-3.jpg" alt="A Higher Perspective"><span class="play-button">▶</span><span class="video-duration">3:58</span></button><h3>A Higher Perspective</h3><span class="video-label">CINEMATIC SHORT</span></article>
+<article class="video-card" data-category="videos"><button class="video-thumbnail" data-search="mountain climbing adventure documentary"><img src="images/video-4.jpg" alt="Journey to the Unknown"><span class="play-button">▶</span><span class="video-duration">5:24</span></button><h3>Journey to the Unknown</h3><span class="video-label">MOUNTAIN ADVENTURE</span></article>
+<article class="video-card" data-category="videos summits"><button class="video-thumbnail" data-search="Himalayan mountain expedition sunrise documentary"><img src="images/video-5.jpg" alt="Chasing the Summit"><span class="play-button">▶</span><span class="video-duration">7:15</span></button><h3>Chasing the Summit</h3><span class="video-label">EXPEDITION STORY</span></article>
+<article class="video-card" data-category="videos"><button class="video-thumbnail" data-search="mountain wilderness camping adventure documentary"><img src="images/video-6.jpg" alt="Into the Wild"><span class="play-button">▶</span><span class="video-duration">4:48</span></button><h3>Into the Wild</h3><span class="video-label">WILDERNESS FILM</span></article>
+</div>
+
+</div>
+</section>
+
+<!-- Gallery lightbox popup -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+<button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+<button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">‹</button>
+<img id="lightboxImage" src="" alt="">
+<button class="lightbox-next" id="lightboxNext" aria-label="Next">›</button>
+<p id="lightboxCaption"></p>
+</div>
+<!-- =====================================================
+     GALLERY SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     HISTORY SECTION START
+     ===================================================== -->
+<section id="history">
+
+<!-- History banner -->
+<div class="page-banner" style="--banner-image:url('../images/mountain-hero.jpg')">
+<div class="page-banner-content">
+<span class="sec-eyebrow">Our Heritage</span>
+<h2>A Journey<br>Through Time</h2>
+<p>From bold first steps to modern triumphs, the history of mountaineering is a story of human curiosity, courage and an enduring call to the heights.</p>
+<a class="btn-cyan" href="#timeline">See the Milestones →</a>
+</div>
+<p class="banner-note">MOUNTAINS<br>CONNECT US</p>
+</div>
+
+<!-- Timeline -->
+<div class="sec sec-white" id="timeline">
+<div class="sec-inner">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Key Milestones</span>
+<h2 class="sec-title">Defining Moments</h2>
+</div>
+<p class="sec-intro">Across centuries, mountaineers have pushed beyond the known, transforming dreams into reality.</p>
+</div>
+<div class="timeline">
+<article class="timeline-item reveal"><div class="year">1786</div><div class="timeline-dot"></div><img src="images/online-6.jpg" alt="Alpine range"><div><h3>Mont Blanc – First Ascent</h3><p>Jacques Balmat and Dr. Michel-Gabriel Paccard reached the summit of Mont Blanc, the beginning of modern mountaineering.</p></div></article>
+<article class="timeline-item reveal"><div class="year">1865</div><div class="timeline-dot"></div><img src="images/online-21.jpg" alt="Alpine peak"><div><h3>The Matterhorn</h3><p>Edward Whymper and his team made the first ascent of the Matterhorn, revealing both the glory and the risk of the mountains.</p></div></article>
+<article class="timeline-item reveal"><div class="year">1953</div><div class="timeline-dot"></div><img src="images/aboutmountain.jpg" alt="Everest region"><div><h3>Everest – Hillary and Tenzing</h3><p>On May 29, 1953, Sir Edmund Hillary and Tenzing Norgay reached the summit of Mount Everest, the highest point on Earth.</p></div></article>
+<article class="timeline-item reveal"><div class="year">1954</div><div class="timeline-dot"></div><img src="images/base.jpg" alt="Karakoram"><div><h3>K2 – The Savage Mountain</h3><p>Achille Compagnoni and Lino Lacedelli became the first to summit K2, the world's second-highest mountain.</p></div></article>
+<article class="timeline-item reveal"><div class="year">1978</div><div class="timeline-dot"></div><img src="images/online-11.jpg" alt="Remote mountains"><div><h3>Everest – Without Oxygen</h3><p>Reinhold Messner and Peter Habeler climbed Everest without supplemental oxygen, redefining human endurance.</p></div></article>
+</div>
+</div>
+</div>
+
+<!-- History quote -->
+<div class="quote-block">
+<div class="quote-mark">“</div>
+<blockquote>The mountains have always been a place where man measures himself against the infinite.</blockquote>
+<cite>— SIR EDMUND HILLARY</cite>
+</div>
+
+</section>
+<!-- =====================================================
+     HISTORY SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     CLIMBING STYLES (TYPES) SECTION START
+     ===================================================== -->
+<section id="types" class="sec sec-dark">
+<div class="sec-inner">
+
+<!-- Styles heading -->
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Climbing Styles</span>
+<h2 class="sec-title">Find Your Way Up</h2>
+</div>
+<p class="sec-intro">Different mountains. Different mindsets. Discover the styles of mountaineering and the approach that matches your goals.</p>
+</div>
+
+<!-- Style rows (filled from data in script.js) -->
+<div id="styleList"></div>
+
+</div>
+</section>
+<!-- =====================================================
+     CLIMBING STYLES (TYPES) SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     TECHNIQUES SECTION START
+     ===================================================== -->
+<section id="techniques">
+
+<!-- Technique cards -->
+<div class="sec sec-light">
+<div class="sec-inner">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Explore Key Techniques</span>
+<h2 class="sec-title">Essential Skills for the Mountains</h2>
+</div>
+<p class="sec-intro">From fundamental skills to advanced systems, these techniques form the foundation of safe and successful mountaineering.</p>
+</div>
+<div class="grid-4" id="techGrid"></div>
+</div>
+</div>
+
+<!-- In focus: self-arrest -->
+<div class="sec sec-dark">
+<div class="sec-inner focus-layout">
+<div class="reveal">
+<span class="sec-eyebrow">In Focus</span>
+<h2 class="sec-title">How to Self-Arrest</h2>
+<p class="sec-intro mt-3">If you fall on a snow or glacier slope, a fast and effective self-arrest can save your life.</p>
+<ol class="focus-steps">
+<li><b>1</b><div><h4>Turn Onto Your Stomach</h4><p>Roll quickly onto your stomach, head uphill.</p></div></li>
+<li><b>2</b><div><h4>Grip the Ice Axe</h4><p>Hold the axe with both hands, pick facing into the snow.</p></div></li>
+<li><b>3</b><div><h4>Dig In and Apply Pressure</h4><p>Drive the pick in and press down with your body weight.</p></div></li>
+<li><b>4</b><div><h4>Spread Your Legs</h4><p>Keep legs apart for stability and friction.</p></div></li>
+<li><b>5</b><div><h4>Stop and Assess</h4><p>Once stopped, stay calm and assess your situation.</p></div></li>
+</ol>
+</div>
+<figure class="focus-image reveal">
+<img src="images/style-1.jpg" alt="Climber practising self-arrest on snow">
+<small>KEEP THE PICK IN THE SNOW AND YOUR WEIGHT LOW.</small>
+</figure>
+</div>
+</div>
+
+</section>
+<!-- =====================================================
+     TECHNIQUES SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     RECORDS SECTION START
+     ===================================================== -->
+<section id="records">
+
+<!-- Records banner -->
+<div class="page-banner" style="--banner-image:url('../images/mountain.jpg')">
+<div class="page-banner-content">
+<span class="sec-eyebrow">World Records</span>
+<h2>Legends of<br>the Summit</h2>
+<p>Extraordinary people. Extraordinary mountains. A record of human endurance, courage and the relentless pursuit of higher ground.</p>
+</div>
+<p class="banner-note">"THE MOUNTAINS REVEAL<br>WHAT WE'RE TRULY MADE OF."</p>
+</div>
+
+<div class="sec sec-deep">
+<div class="sec-inner">
+
+<!-- Key records -->
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Key Records</span>
+<h2 class="sec-title">Extraordinary Feats. Lasting Inspiration.</h2>
+</div>
+<p class="sec-intro">From the highest peaks to the fastest ascents, these records showcase the spirit of mountaineering.</p>
+</div>
+<div class="grid-3">
+<article class="record-card reveal"><i class="bi bi-triangle"></i><div><span class="record-label">HIGHEST MOUNTAIN</span><h3>Mount Everest</h3><div class="record-value">8,848 m</div><p>The highest point on Earth.</p></div></article>
+<article class="record-card reveal"><i class="bi bi-image-alt"></i><div><span class="record-label">TOUGHEST CLIMB</span><h3>K2</h3><div class="record-value">8,611 m</div><p>Feared for its extreme difficulty and high fatality rate.</p></div></article>
+<article class="record-card reveal"><i class="bi bi-stopwatch"></i><div><span class="record-label">FASTEST ASCENT</span><h3>Mount Everest</h3><div class="record-value">8h 10m</div><p>Set by Lhakpa Gelu Sherpa (2003).</p></div></article>
+<article class="record-card reveal"><i class="bi bi-person-walking"></i><div><span class="record-label">YOUNGEST CLIMBER</span><h3>Jordan Romero</h3><div class="record-value">13 years</div><p>Youngest person to summit Everest (2010).</p></div></article>
+<article class="record-card reveal"><i class="bi bi-person-arms-up"></i><div><span class="record-label">OLDEST CLIMBER</span><h3>Yuichiro Miura</h3><div class="record-value">80 years</div><p>Oldest person to summit Everest (2013).</p></div></article>
+<article class="record-card reveal"><i class="bi bi-people"></i><div><span class="record-label">MOST SUMMITS</span><h3>Kami Rita Sherpa</h3><div class="record-value">30</div><p>Most summits of Mount Everest (as of 2024).</p></div></article>
+</div>
+
+<!-- Eight-thousanders table (search + sort) -->
+<div class="sec-head mt-5 pt-4 reveal">
+<div>
+<span class="sec-eyebrow">The Fourteen Eight-Thousanders</span>
+<h2 class="sec-title">The World's Highest Mountains</h2>
+</div>
+<p class="sec-intro">Search by name or country, or click a column heading to sort.</p>
+</div>
+<div class="table-tools">
+<input type="search" id="peakSearch" placeholder="Search mountain or country…" aria-label="Search mountains">
+<select id="peakCountry" aria-label="Filter by country">
+<option value="">All countries</option>
+<option>Nepal</option>
+<option>Pakistan</option>
+<option>China</option>
+<option>India</option>
+</select>
+</div>
+<div class="table-wrap">
+<table class="peaks-table" id="peaksTable">
+<thead>
+<tr><th data-key="rank"># ↕</th><th data-key="name">MOUNTAIN ↕</th><th data-key="height">HEIGHT (M) ↕</th><th data-key="location">LOCATION ↕</th><th data-key="year">FIRST ASCENT ↕</th></tr>
+</thead>
+<tbody></tbody>
+</table>
+</div>
+
+</div>
+</div>
+</section>
+<!-- =====================================================
+     RECORDS SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     SUCCESS STORY SECTION START
+     ===================================================== -->
+<section id="success-story">
+
+<!-- Success story banner -->
+<div class="page-banner" style="--banner-image:url('../images/online-5.jpg')">
+<div class="page-banner-content">
+<span class="sec-eyebrow">Real Stories</span>
+<h2>Real Stories.<br>Real Adventures.</h2>
+<p>Extraordinary people. Extraordinary places. Discover how Alpine Ascents helps dreamers reach new heights.</p>
+<a class="btn-cyan" href="#storyFeatured">Be Inspired →</a>
+</div>
+</div>
+
+<!-- Featured story -->
+<div class="sec sec-light" id="storyFeatured">
+<div class="sec-inner featured-story">
+<div class="reveal">
+<span class="sec-eyebrow">Featured Story</span>
+<h2 class="sec-title">From Self-Doubt to Summit</h2>
+<blockquote>"This expedition didn't just take me to a mountain summit — it took me to a stronger version of myself. Alpine Ascents gave me the confidence, support, and guidance to achieve what once felt impossible."</blockquote>
+<div class="story-author"><strong>JESSICA MILLER</strong><span>United States</span></div>
+<button class="btn-cyan" data-info="jessica">Read Her Story →</button>
+</div>
+<figure class="featured-photo reveal">
+<img src="images/online-27.jpg" alt="Climber smiling in the mountains">
+<figcaption>"The mountains reminded me what I'm capable of."</figcaption>
+</figure>
+</div>
+</div>
+
+<!-- Testimonials -->
+<div class="sec sec-white">
+<div class="sec-inner" id="storyWrap">
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">More Success Stories</span>
+<h2 class="sec-title">Different Journeys. A Shared Passion.</h2>
+</div>
+<button class="btn-ghost" id="viewStories" type="button">View All Stories →</button>
+</div>
+<div class="grid-4">
+<article class="testimonial reveal"><img src="images/online-25.jpg" alt="Sarah Johnson"><div class="stars">★★★★★</div><p>"Alpine Ascents turned a lifelong dream into reality. The team was incredible every step of the way."</p><strong>Sarah Johnson</strong><span>United States</span></article>
+<article class="testimonial reveal"><img src="images/online-15.jpg" alt="Ahmed Khan"><div class="stars">★★★★★</div><p>"Professional, supportive, and truly passionate about mountaineering. An unforgettable experience."</p><strong>Ahmed Khan</strong><span>Pakistan</span></article>
+<article class="testimonial reveal"><img src="images/online-1.jpg" alt="Emily Carter"><div class="stars">★★★★★</div><p>"I gained more than a summit — I gained confidence, friendships, and a new perspective on life."</p><strong>Emily Carter</strong><span>United Kingdom</span></article>
+<article class="testimonial reveal"><img src="images/online-12.jpg" alt="Ali Raza"><div class="stars">★★★★★</div><p>"Alpine Ascents made everything possible. World-class guidance and a life-changing journey."</p><strong>Ali Raza</strong><span>Pakistan</span></article>
+<article class="testimonial extra"><img src="images/online-24.jpg" alt="Mia Rossi"><div class="stars">★★★★★</div><p>"Mont Blanc with this team was safe, fun and perfectly organised from start to finish."</p><strong>Mia Rossi</strong><span>Italy</span></article>
+<article class="testimonial extra"><img src="images/online-16.jpg" alt="Daniel Weber"><div class="stars">★★★★★</div><p>"The acclimatization plan on Kilimanjaro was spot on. Everyone in our group summited."</p><strong>Daniel Weber</strong><span>Germany</span></article>
+<article class="testimonial extra"><img src="images/online-10.jpg" alt="Ayesha Malik"><div class="stars">★★★★★</div><p>"K2 Base Camp trek was the best decision of my life. Guides were kind and experienced."</p><strong>Ayesha Malik</strong><span>Pakistan</span></article>
+<article class="testimonial extra"><img src="images/online-7.jpg" alt="Lucas Martin"><div class="stars">★★★★★</div><p>"From training to summit day, I always felt prepared and supported."</p><strong>Lucas Martin</strong><span>France</span></article>
+</div>
+</div>
+</div>
+
+<!-- Impact counters (count up when visible) -->
+<div class="sec sec-dark">
+<div class="sec-inner">
+<span class="sec-eyebrow">Our Summit Impact</span>
+<h2 class="sec-title">Real People. Real Milestones.</h2>
+<div class="impact">
+<div><i class="bi bi-people-fill"></i><strong class="counter" data-target="1200" data-suffix="+">0</strong><span>Adventurers Guided</span></div>
+<div><i class="bi bi-triangle-fill"></i><strong class="counter" data-target="85" data-suffix="+">0</strong><span>Summits Reached</span></div>
+<div><i class="bi bi-globe2"></i><strong class="counter" data-target="40" data-suffix="+">0</strong><span>Countries Represented</span></div>
+<div><i class="bi bi-heart-fill"></i><strong class="counter" data-target="98" data-suffix="%">0</strong><span>Would Climb Again</span></div>
+</div>
+</div>
+</div>
+
+</section>
+<!-- =====================================================
+     SUCCESS STORY SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     LATEST DEVELOPMENT SECTION START
+     ===================================================== -->
+<section id="development" class="sec sec-light">
+<div class="sec-inner" id="newsWrap">
+
+<!-- Development heading -->
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">News &amp; Updates</span>
+<h2 class="sec-title">Latest Developments</h2>
+</div>
+<p class="sec-intro">Stories from the mountains. People, progress and a healthier planet.</p>
+</div>
+
+<!-- Featured news -->
+<article class="news-featured reveal">
+<img src="images/development-2.jpg" alt="Rescue drone over the mountains">
+<div class="news-featured-body">
+<span class="sec-eyebrow">Tech &amp; Innovation</span>
+<h3>New Rescue Drones Tested on Everest</h3>
+<p>High-altitude rescue drones have completed successful tests on Everest, opening new possibilities for faster, safer response in emergencies.</p>
+<div class="d-flex align-items-center gap-3 flex-wrap">
+<button class="btn-cyan" data-info="news-featured">Read the full story →</button>
+<small class="text-muted">APR 22, 2025</small>
+</div>
+</div>
+</article>
+
+<!-- More news -->
+<div class="sec-head">
+<div>
+<span class="sec-eyebrow">More News</span>
+<h2 class="sec-title">Around the Mountains</h2>
+</div>
+<button class="btn-ghost" id="viewNews" type="button">View all news →</button>
+</div>
+<div class="grid-3">
+<article class="news-card reveal"><img src="images/mountain.jpg" alt="K2"><div class="news-card-body"><div class="news-meta">APR 18, 2025 | EXPEDITIONS</div><h3>Record Summit Season on K2</h3><p>An exceptional weather window led to a record number of summits on K2 this season.</p><button class="link-arrow text-start" data-info="news-k2">Read more →</button></div></article>
+<article class="news-card reveal"><img src="images/online-17.jpg" alt="GPS beacon"><div class="news-card-body"><div class="news-meta">APR 16, 2025 | GEAR &amp; TECH</div><h3>Smart GPS Beacons for Climbers</h3><p>Next-generation beacons make it easier to stay connected and safe in remote regions.</p><button class="link-arrow text-start" data-info="news-gps">Read more →</button></div></article>
+<article class="news-card reveal"><img src="images/development-1.jpg" alt="Glacier"><div class="news-card-body"><div class="news-meta">APR 12, 2025 | ENVIRONMENT</div><h3>Climate Change and Melting Glaciers</h3><p>New research highlights accelerating glacial loss in the Himalaya.</p><button class="link-arrow text-start" data-info="news-glaciers">Read more →</button></div></article>
+<article class="news-card extra"><img src="images/online-26.jpg" alt="Nepal village"><div class="news-card-body"><div class="news-meta">APR 8, 2025 | POLICY</div><h3>New Permit Rules in Nepal</h3><p>Updated permit regulations aim to improve safety and sustainability.</p><button class="link-arrow text-start" data-info="news-permits">Read more →</button></div></article>
+<article class="news-card extra"><img src="images/online-3.jpg" alt="Snowy peaks"><div class="news-card-body"><div class="news-meta">APR 5, 2025 | GEAR &amp; TECH</div><h3>Lightweight Oxygen Systems</h3><p>Ultra-light oxygen systems are changing high-altitude expeditions.</p><button class="link-arrow text-start" data-info="news-oxygen">Read more →</button></div></article>
+<article class="news-card extra"><img src="images/online-8.jpg" alt="Mountain wildlife"><div class="news-card-body"><div class="news-meta">APR 2, 2025 | ENVIRONMENT</div><h3>Protecting Mountain Wildlife</h3><p>Communities work together to protect fragile mountain habitats.</p><button class="link-arrow text-start" data-info="news-wildlife">Read more →</button></div></article>
+</div>
+
+<!-- Live info bar + newsletter -->
+<div class="live-bar reveal">
+<div><span>TODAY</span><strong id="todayDate">—</strong></div>
+<div><span>CURRENT TIME (NEPAL)</span><strong id="nepalTime">—</strong></div>
+<div><span>YOUR VISITS</span><strong id="visitCount2">—</strong></div>
+<div class="newsletter-wrap">
+<span>GET THE LATEST UPDATES</span>
+<form class="newsletter-form mt-2" id="newsletterForm" novalidate>
+<input type="email" id="newsletterEmail" placeholder="Your email address" aria-label="Email address">
+<button class="btn-cyan" type="submit">Subscribe</button>
+</form>
+<p class="form-note" id="newsletterMessage"></p>
+</div>
+</div>
+
+</div>
+</section>
+<!-- =====================================================
+     LATEST DEVELOPMENT SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     CONTACT SECTION START
+     ===================================================== -->
+<section id="contact" class="sec sec-dark">
+<div class="sec-inner">
+
+<!-- Contact heading -->
+<div class="sec-head reveal">
+<div>
+<span class="sec-eyebrow">Contact Us</span>
+<h2 class="sec-title">Plan Your Next Ascent</h2>
+</div>
+<p class="sec-intro">Tell us where you want to go. Our team replies within 24 hours.</p>
+</div>
+
+<div class="contact-layout">
+
+<!-- Contact details -->
+<aside class="contact-info reveal">
+<h3>Get in Touch</h3>
+<div class="contact-line"><i class="bi bi-geo-alt"></i><div><span>BASE CAMP OFFICE</span><p>Thamel, Kathmandu 44600, Nepal</p></div></div>
+<div class="contact-line"><i class="bi bi-telephone"></i><div><span>PHONE</span><a href="tel:+9779800000000">+977 980 000 0000</a></div></div>
+<div class="contact-line"><i class="bi bi-envelope"></i><div><span>EMAIL</span><a href="mailto:info@alpineascents.com">info@alpineascents.com</a></div></div>
+<div class="contact-line"><i class="bi bi-clock"></i><div><span>OFFICE HOURS</span><p>Mon – Sat, 9:00 – 18:00 (NPT)</p></div></div>
+</aside>
+
+<!-- Booking / contact form -->
+<form class="contact-form reveal" id="contactForm" novalidate>
+<div><label for="cName">FULL NAME</label><input id="cName" name="name" type="text" placeholder="Your name"><span class="error"></span></div>
+<div><label for="cEmail">EMAIL</label><input id="cEmail" name="email" type="email" placeholder="you@example.com"><span class="error"></span></div>
+<div><label for="cPhone">PHONE (OPTIONAL)</label><input id="cPhone" name="phone" type="tel" placeholder="+92 300 0000000"><span class="error"></span></div>
+<div><label for="cTrip">EXPEDITION</label><select id="cTrip" name="trip"><option value="">Select an expedition</option></select><span class="error"></span></div>
+<div class="full"><label for="cMessage">MESSAGE</label><textarea id="cMessage" name="message" rows="5" placeholder="Tell us about your experience and travel dates"></textarea><span class="error"></span></div>
+<div class="full"><button class="btn-cyan" type="submit">Send Message <i class="bi bi-send"></i></button></div>
+<p class="form-success" id="formSuccess"></p>
+</form>
+
+</div>
+</div>
+</section>
+<!-- =====================================================
+     CONTACT SECTION CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     FOOTER START
+     ===================================================== -->
+<footer class="site-footer">
+<div class="footer-grid">
+<div>
+<div class="footer-brand">ALPINE ASCENTS</div>
+<p class="mt-3">Dream · Climb · Explore. Safe, guided adventures on the world's greatest mountains.</p>
+</div>
+<div>
+<h4>EXPLORE</h4>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#expedition">Expeditions</a></li>
+<li><a href="#mountaineering">Mountaineering</a></li>
+<li><a href="#gallery">Gallery</a></li>
+</ul>
+</div>
+<div>
+<h4>LEARN</h4>
+<ul>
+<li><a href="#history">History</a></li>
+<li><a href="#techniques">Techniques</a></li>
+<li><a href="#hazards">Hazards</a></li>
+<li><a href="#records">Records</a></li>
+</ul>
+</div>
+<div>
+<h4>CONNECT</h4>
+<ul>
+<li><a href="#clubs">Clubs</a></li>
+<li><a href="#success-story">Success Stories</a></li>
+<li><a href="#development">Latest News</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© <span id="year"></span> Alpine Ascents. All rights reserved.</span>
+<span>HIGHER PEOPLE. BRIGHTER TOMORROWS.</span>
+</div>
+</footer>
+<!-- =====================================================
+     FOOTER CLOSE
+     ===================================================== -->
+
+
+<!-- =====================================================
+     SHARED POPUP (MODAL) START
+     ===================================================== -->
+<div class="modal fade info-modal" id="infoModal" tabindex="-1" aria-labelledby="infoModalTitle" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg modal-dialog-scrollable">
+<div class="modal-content">
+<div class="modal-header">
+<div>
+<span class="modal-kicker" id="infoModalKicker"></span>
+<h3 class="modal-title" id="infoModalTitle"></h3>
+</div>
+<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body" id="infoModalBody"></div>
+<div class="modal-footer" id="infoModalFooter">
+<button type="button" class="btn-ghost" data-bs-dismiss="modal">Close</button>
+</div>
+</div>
+</div>
+</div>
+<!-- =====================================================
+     SHARED POPUP (MODAL) CLOSE
+     ===================================================== -->
+
+<!-- SCROLL TO TOP BUTTON -->
+<button id="scrollTopBtn" class="scroll-btn scroll-top"
+        aria-label="Scroll to top" title="Scroll to top">
+    ↑
+</button>
+
+<!-- SCROLL DOWN BUTTON -->
+<button id="scrollDownBtn" class="scroll-btn scroll-down"
+        aria-label="Scroll down" title="Scroll down">
+    ↓
+</button>
+<!-- scroll button end  -->
+
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a href="https://wa.me/923420203085"
+   class="whatsapp-btn"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Chat with us on WhatsApp"
+   title="Chat on WhatsApp">
+
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path fill="currentColor"
+        d="M16 .8A15.1 15.1 0 0 0 3.1 23.7L1 31l7.5-2A15.1 15.1 0 1 0 16 .8Zm0 27.5a12.3 12.3 0 0 1-6.3-1.7l-.5-.3-4.4 1.2L6 23.2l-.3-.5A12.3 12.3 0 1 1 16 28.3Zm6.8-9.2c-.4-.2-2.2-1.1-2.6-1.2-.4-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.5-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8l.6-.7c.2-.2.3-.4.4-.6.1-.2 0-.5 0-.7-.1-.2-.9-2.1-1.2-2.9-.3-.7-.6-.6-.9-.6h-.8c-.3 0-.7.1-1.1.5-.4.4-1.4 1.4-1.4 3.3s1.4 3.8 1.6 4.1c.2.3 2.8 4.3 6.8 6 .9.4 1.6.6 2.1.7.9.3 1.8.2 2.5.1.8-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.4-.3-.8-.5Z"/>
+    </svg>
+</a>
+<!-- whatsapp icon end  -->
+
+<!-- Scripts -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
